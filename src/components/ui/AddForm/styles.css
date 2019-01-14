@@ -1,0 +1,30 @@
+.addTodo_form {
+  font-size: 18px;
+  margin-top: 25px;
+}
+
+.addTodo_form input, .addTodo_form textarea {
+  font-size: inherit;
+  border-radius: 10px;
+  outline: none;
+  padding: 5px;
+}
+
+.addTodo_form input {
+  height: 40px;
+}
+
+.addTodoBtn {
+  height: 30px;
+  width: 100px;
+  margin: 10px 0;
+}
+
+.addTodoBtn:hover {
+  background-color: #245;
+  color: #fff;
+}
+
+label {
+  color: #fff
+}

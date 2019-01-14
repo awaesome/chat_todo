@@ -1,0 +1,67 @@
+.layout {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  align-content: center;
+  margin: 0 30px;
+}
+
+.loginOverlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7)
+}
+
+.loginContainer {
+  min-width: 200px;
+  max-width: 500px;
+  height: 200px;
+  padding: 10px;
+  border: 2px solid #f84;
+  border-radius: 5px;
+  margin: 20px auto;
+  background-color: #234;
+  color: #fff;
+  font-family: 'consolas'
+}
+
+.loginTitle, .inputContainer {
+  display: block;
+  text-align: center;
+  margin: 30px auto;
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputInput {
+  color: #234;
+  padding: 5px;
+  font-size: 18px;
+  height: 40px;
+  border-radius: 10px;
+  outline: none;
+}
+
+.inputBtn {
+  font-weight: bold;
+  height: 40px;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 5px;
+  transition: .5s;
+}
+
+.inputBtn:hover {
+  border: 2px solid #f84;
+}
+
+.inputBtn:disabled {
+  background-color: #a66;
+}

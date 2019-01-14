@@ -1,25 +1,26 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import TodoAddForm from './components/containers/TodoAddForm'
+import TodoList from './components/containers/TodoList'
+import Layout from './components/layout'
+import ChatLayout from './components/layout/layoutChat'
+import TodoLayout from './components/layout/layoutTodo'
+import Chat from './components/containers/Chat'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+				<Layout>
+					<ChatLayout>
+						<Chat />
+					</ChatLayout>
+					<TodoLayout>
+						<TodoAddForm />
+						<hr />
+						<TodoList />
+					</TodoLayout>
+				</Layout>
       </div>
     );
   }

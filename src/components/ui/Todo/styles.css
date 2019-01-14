@@ -1,0 +1,42 @@
+.todoItemWrapper {
+  width: 100%;
+  margin: 10px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.todoItemWrapper:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.todoItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 40%;
+}
+
+.done {
+  text-decoration-style: double !important;
+  text-decoration-color: black !important;
+  text-decoration: line-through;
+}
+
+.deleteBtn {
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.todoCheckbox {
+  transition: .3s;
+  opacity: 0.7;
+  width: 20px;
+  height: 20px;
+}
+
+.todoCheckbox:hover {
+  opacity: 1;
+  width: 22px;
+  height: 22px;
+}

@@ -1,0 +1,8 @@
+export const ADD_TODO = 'ADD_TODO'
+export const REMOVE_TODO = 'REMOVE_TODO'
+export const MODIFY_TODO = 'MODIFY_TODO'
+export const UPDATE_TODO = 'UPDATE_TODO'
+export const SEND_MESSAGE = 'SEND_MESSAGE'
+export const RECIVE_MESSAGE = 'RECIVE_MESSAGE'
+export const INIT_USER = 'INIT_USER'
+export const UPDATE_USERS = 'UPDATE_USERS'
