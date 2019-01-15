@@ -5,13 +5,6 @@
   margin: 20px 30px;
 }
 
-@media only screen and (max-width: 850px) {
-  .layout {
-    grid-template-columns: 1fr;
-    margin: 20px 0;
-  }
-}
-
 .loginOverlay {
   position: absolute;
   top: 0;
@@ -70,4 +63,11 @@
 
 .inputBtn:disabled {
   background-color: #a66;
+}
+
+@media only screen and (max-width: 850px) {
+  .layout {
+    grid-template-columns: 1fr;
+    margin: 20px 0;
+  }
 }
