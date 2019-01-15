@@ -17,7 +17,7 @@ const AddForm = ({ name, text, handleChange, handleSubmit}) => {
           value={text}
           onChange={handleChange}
           rows='3'
-          cols='30'
+          cols='20'
         />
 		</label> <br />
 		<button className = "addTodoBtn">Add todo</button>

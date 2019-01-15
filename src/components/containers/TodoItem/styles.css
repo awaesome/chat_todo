@@ -45,3 +45,18 @@
   width: 50%;
   background-color: #233;
 }
+
+.todoItemSaveBtn {
+  display: block;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #233;
+  padding: 10px;
+  margin: 10px auto;
+  transition: .5s;
+}
+
+.todoItemSaveBtn:hover {
+  border-color: #f84;
+  color: #f84;
+}

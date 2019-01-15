@@ -1,4 +1,5 @@
 import React from 'react'
+import './todoStyles.css'
 
 const TodoLayout = (props) => {
   return (
