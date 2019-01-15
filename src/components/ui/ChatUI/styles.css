@@ -5,6 +5,12 @@
   margin: 10px auto;
 }
 
+@media only screen and (max-width: 700px) {
+  .chatForm {
+    width: 100%;
+  }
+}
+
 .chatWindow {
   height: 100%;
   overflow-y: auto;

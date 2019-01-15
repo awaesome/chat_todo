@@ -4,5 +4,6 @@
   align-items: stretch;
   min-width: 200px;
   width: 100%;
+  padding: 10px;
   margin: 30px auto;
 }
